@@ -2,7 +2,8 @@
 
     Widget to check the weather periodically
 
-    * (c) 2023, Abiel Mendes (<https://github.com/paodelonga>)
+    (c) Copyright 2023, Abiel Mendes (<https://github.com/paodelonga>)
+    https://github.com/paodelonga/awesome-widgets
 
 --]]
 
@@ -32,10 +33,10 @@ local function Widget(arguments)
         end)
     end
 
-    newtimer("widget.weather", timeout, Weather.Update)
+    newtimer("awesome-widgets.weather", timeout, Weather.Update)
     return Weather
 end
 
 return Widget
 
--- [>D]
+--[>D]
