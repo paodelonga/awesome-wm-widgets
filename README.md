@@ -7,6 +7,7 @@ I decided to do some widgets for [Awesome WM](https://awesomewm.org) and so I th
 
 - [Weather](./weather/)<br>
     A simple widget to ~~display~~`curl` the weather in your current region using the [wttr.in](https://github.com/chubin/wttr.in).<br> 
-    
-# License
-No has, it's open-source, (literally), make good use... or badly, you decide.
+<!--
+    # License
+    No has, it's open-source, (literally), make good use... or badly, you decide.
+-->
