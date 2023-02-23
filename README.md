@@ -41,7 +41,6 @@ I decided to do some widgets for AwesomeWM and so I thought in opening a reposit
 |               [`curl`](https://github.com/curl/curl)               |            A command-line tool for transferring data specified with URL syntax.       |
 |       [`awesome-git`](https://github.com/awesomewm/awesome)        |                      Highly configurable framework window manager.                    |
 | [`internet access`](https://en.wikipedia.org/wiki/Internet_access) |                         We all know and you know what is that.                        |
-|             [`lain`](https://github.com/lcpz/lain)                 | Provides alternative layouts, asynchronous widgets and utility functions for Awesome. |
 
 ---
 
@@ -52,7 +51,7 @@ The implementation of widgets is simple and fast, just follow a few steps
 
 ```sh
 git clone https://github.com/paodelonga/awesome-widgets.git
-cp -r awesome-widgets/* ~/.config/awesome/
+cp --recursive --parents awesome-widgets/widgets/ ~/.config/awesome/
 ```
  
 2. And then go to the [init.lua](./widgets/init.lua) file and uncomment the line referring to the required widget

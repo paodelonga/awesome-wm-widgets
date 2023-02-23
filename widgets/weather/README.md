@@ -25,7 +25,6 @@ A simple way to ~~display~~`curl` the weather of your current region in your bar
 |               [`curl`](https://github.com/curl/curl)               |            A command-line tool for transferring data specified with URL syntax.       |
 |       [`awesome-git`](https://github.com/awesomewm/awesome)        |                      Highly configurable framework window manager.                    |
 | [`internet access`](https://en.wikipedia.org/wiki/Internet_access) |                         We all know and you know what is that.                        |
-|             [`lain`](https://github.com/lcpz/lain)                 | Provides alternative layouts, asynchronous widgets and utility functions for Awesome. |
 
 ---
 
@@ -36,7 +35,7 @@ Implementing this widget is as simple as peeling a banana :banana:. <br>
 
 ```sh
 git clone https://github.com/paodelonga/awesome-widgets.git
-cp -r awesome-widgets/* ~/.config/awesome/
+cp --recursive --parents awesome-widgets/widgets/ ~/.config/awesome/
 ```
 
 2. Then add the following lines to your [rc.lua](https://awesomewm.org/apidoc/documentation/07-my-first-awesome.md.html#Explore_Awesome)
