@@ -25,6 +25,7 @@ I decided to do some widgets for AwesomeWM and so I thought in opening a reposit
 ### :bookmark_tabs: <samp>List</samp>
 
 - [Weather](./widgets/weather/): A simple way to ~~display~~`curl` the weather of your current region in your bar using just [wttr.in](https://github.com/chubin/wttr.in).
+- [Spotify Bar](./widgets/spotify_bar/): A widget to control the Spotify using only your wibar.
 
 ---
 
@@ -34,6 +35,13 @@ I decided to do some widgets for AwesomeWM and so I thought in opening a reposit
 | - |
 | ![Widget screenshot](./widgets/weather/docs/screenshot.png) |
 
+| [Spotify Bar](./widgets/spotify_bar/) | 
+| - |
+| ![Image](./widgets/spotify_bar/docs/closed.png) |
+| ![Image](./widgets/spotify_bar/docs/disconnected.png) |
+| ![Image](./widgets/spotify_bar/docs/paused.png) |
+| ![Image](./widgets/spotify_bar/docs/playing.png) |
+
 ---
 
 ### :wrench: <samp>Dependencies</samp>
@@ -42,6 +50,7 @@ I decided to do some widgets for AwesomeWM and so I thought in opening a reposit
 | - | - |
 | [`curl`](https://github.com/curl/curl) | A command-line tool for transferring data specified with URL syntax. |
 | [`awesome-git`](https://github.com/awesomewm/awesome) | Highly configurable framework window manager. |
+| [`sp`](https://gist.github.com/fa6258f3ff7b17747ee3.git) | Spotify CLI controller |
 
 ---
 
@@ -83,6 +92,7 @@ return {
 ### :bust_in_silhouette: <samp>Credits</samp>
 - [Paodelonga](https://github.com/paodelonga/)
 - wttr.in [contributors](https://github.com/chubin/wttr.in/graphs/contributors)
+- sp [contributors](https://gist.github.com/fa6258f3ff7b17747ee3.git)
 
 [Back to top](#readme)
 
