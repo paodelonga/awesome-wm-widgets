@@ -1,11 +1,10 @@
 <p align="center">
-  <img src="./docs/awesome64.png" width="200" alt="Awesome Window Manager">
+  <img src="./docs/banner.png" width="800" alt="Awesome Window Manager">
 </p>
 
 # :sparkles: <samp>Awesome Widgets</samp>
 
 ```css
-
 I decided to do some widgets for AwesomeWM and so I thought in opening a repository, and here we are.
 ```
 
