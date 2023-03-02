@@ -38,6 +38,12 @@ local function Widget(arguments)
         end)
     end
 
+    Weather.widget:connect_signal("button::press", function(_, _, _, button)
+        if button == 1 then
+            Update()
+        end
+    end)
+
     newtimer("awesome-widgets.weather", timeout, Update)
     return Weather.widget
 end
