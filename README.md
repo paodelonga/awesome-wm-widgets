@@ -4,9 +4,14 @@
 
 # :sparkles: <samp>Awesome Widgets</samp>
 
+<div align="center"> 
+
 ```css
-I decided to do some widgets for AwesomeWM and so I thought in opening a repository, and here we are.
+I decided to do some widgets for AwesomeWM and so I thought in opening a
+repository, and here we are.
 ```
+
+</div>
 
 ---
 
