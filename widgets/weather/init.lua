@@ -31,10 +31,16 @@ local function Widget(arguments)
     local command = "curl -s https://wttr.in/?format=%t"
 
     local function Update()
-        async(command, function(temp)
-            Weather.widget
-                :get_children_by_id("wtextbox")[1]
-                :set_markup(fontfg(font.name, font.color, temp))
+        async(command, function(stdout)
+            if string.match(stdout, "[0-9]*") ~= nil then
+                Weather.widget
+                    :get_children_by_id("wtextbox")[1]
+                    :set_markup(fontfg(font.name, font.color, stdout))
+            else
+                Weather.widget
+                    :get_children_by_id("wtextbox")[1]
+                    :set_markup(fontfg(font.name, font.color, "WEATHER OFFLINE"))
+            end
         end)
     end
 
