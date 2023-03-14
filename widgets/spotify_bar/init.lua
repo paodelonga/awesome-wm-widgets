@@ -3,7 +3,7 @@
     A simple spotify bar controller
 
     (c) Copyright 2023, Abiel Mendes (<https://github.com/paodelonga>)
-    https://github.com/paodelonga/awesome-widgets
+    https://github.com/paodelonga/awesome-widgets/tree/main/widgets/spotify_bar
 
 --]]
 

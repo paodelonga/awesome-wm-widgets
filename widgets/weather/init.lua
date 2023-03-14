@@ -3,7 +3,7 @@
     Widget to check the weather periodically
 
     (c) Copyright 2023, Abiel Mendes (<https://github.com/paodelonga>)
-    https://github.com/paodelonga/awesome-widgets
+    https://github.com/paodelonga/awesome-widgets/tree/main/widgets/weather
 
 --]]
 
