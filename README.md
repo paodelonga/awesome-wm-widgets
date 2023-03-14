@@ -30,6 +30,7 @@ repository, and here we are.
 
 - [Weather](./widgets/weather/): A simple way to ~~display~~`curl` the weather of your current region in your bar using just [wttr.in](https://github.com/chubin/wttr.in).
 - [Spotify Bar](./widgets/spotify_bar/): A widget to control the Spotify using only your wibar.
+- [APT Updates](./widgets/apt_updates/): Widget to view updates count in your wibar.
 
 ---
 
@@ -45,6 +46,10 @@ repository, and here we are.
 | ![Image](./widgets/spotify_bar/docs/disconnected.png) |
 | ![Image](./widgets/spotify_bar/docs/paused.png) |
 | ![Image](./widgets/spotify_bar/docs/playing.png) |
+
+| [APT Updates](./widgets/apt_updates/) | 
+| - |
+| ![Widget screenshot](./widgets/apt_updates/docs/screenshot.png) |
 
 ---
 
