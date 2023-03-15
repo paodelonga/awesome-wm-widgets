@@ -12,6 +12,7 @@ return {
     --[[
     weather = require("widgets.weather")
     spotify_bar = require("widgets.spotify_bar")
+    apt_updates = require("widgets.apt_updates")
     --]]
 }
 
