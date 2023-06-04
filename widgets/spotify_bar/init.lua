@@ -50,9 +50,15 @@ local function Widget(arguments)
     local function Update()
         async(GET_SPOTIFY, function(stdout)
             if stdout ~= nil then
-                local sp_stdout = "Status       " .. stdout .. "\n"
-                local status = string.match(sp_stdout, "Status%s*(.*)\n")
-                local artist, title = string.match(sp_stdout, "Artist%s*(.*)\n" .. "Title%s*(.*)")
+                local sp_stdout = stdout .. "\n"
+                local status = string.match(sp_stdout, "%s*(.-)\n")
+                local album, albumArtist, artist, title = string.match(
+                    sp_stdout,
+                    "Album%s*(.-)\n" ..
+                    "AlbumArtist%s*(.-)\n" ..
+                    "Artist%s*(.-)\n" ..
+                    "Title%s*(.-)\n"
+                )
 
                 if string.find(status, "Spotify is not running") ~= nil then
                     WidgetUpdate(artist, separator, title, "SPOTIFY IS NOT RUNNING")

@@ -32,7 +32,7 @@ local function Widget(arguments)
 
     local function Update()
         async(command, function(stdout)
-            if string.match(stdout, "[0-9]*") ~= nil then
+            if string.match(stdout, "[-+]%d+°[CF]") then
                 Weather.widget
                     :get_children_by_id("wtextbox")[1]
                     :set_markup(fontfg(font.name, font.color, stdout))
